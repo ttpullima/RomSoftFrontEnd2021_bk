@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Presentacion", "01. Presentacion", "{70780612-0C85-4267-A111-87D5F201372E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Servicios", "02. Servicios", "{50F723F1-D476-4763-AA25-203F260A045B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Transversal", "03. Transversal", "{E377F685-6E93-43DF-BFF6-60C2A7D155D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romsoft.GESTIONCLINICA.Presentacion", "Romsoft.GESTIONCLINICA.Presentacion\Romsoft.GESTIONCLINICA.Presentacion.csproj", "{5A56F7C2-6439-4472-953D-FABD505BCA84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romsoft.GESTIONCLINICA.Presentacion.Configuracion", "Romsoft.GESTIONCLINICA.Presentacion.Configuracion\Romsoft.GESTIONCLINICA.Presentacion.Configuracion.csproj", "{781C5C3F-9454-415C-8D37-C9000C4EF8BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romsoft.GESTIONCLINICA.Entidades", "Romsoft.GESTIONCLINICA.Entidades\Romsoft.GESTIONCLINICA.Entidades.csproj", "{F9D50CED-E7CA-4916-93AC-2B0C48BDE3DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romsoft.GESTIONCLINICA.Common", "Romsoft.GESTIONCLINICA.Common\Romsoft.GESTIONCLINICA.Common.csproj", "{57CCEDD4-479F-4042-90C9-0814A5C4B144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romsoft.GESTIONCLINICA.DTO", "Romsoft.GESTIONCLINICA.DTO\Romsoft.GESTIONCLINICA.DTO.csproj", "{97E72E66-47D7-46AB-A3FF-A1A696C847F2}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ROMSOFT.Instacion", "ROMSOFT.Instacion\ROMSOFT.Instacion.vdproj", "{2056E937-84A7-47B6-BBF2-468E7E5E0511}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A56F7C2-6439-4472-953D-FABD505BCA84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A56F7C2-6439-4472-953D-FABD505BCA84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A56F7C2-6439-4472-953D-FABD505BCA84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A56F7C2-6439-4472-953D-FABD505BCA84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{781C5C3F-9454-415C-8D37-C9000C4EF8BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{781C5C3F-9454-415C-8D37-C9000C4EF8BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{781C5C3F-9454-415C-8D37-C9000C4EF8BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{781C5C3F-9454-415C-8D37-C9000C4EF8BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D50CED-E7CA-4916-93AC-2B0C48BDE3DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D50CED-E7CA-4916-93AC-2B0C48BDE3DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D50CED-E7CA-4916-93AC-2B0C48BDE3DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D50CED-E7CA-4916-93AC-2B0C48BDE3DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57CCEDD4-479F-4042-90C9-0814A5C4B144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57CCEDD4-479F-4042-90C9-0814A5C4B144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57CCEDD4-479F-4042-90C9-0814A5C4B144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57CCEDD4-479F-4042-90C9-0814A5C4B144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E72E66-47D7-46AB-A3FF-A1A696C847F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E72E66-47D7-46AB-A3FF-A1A696C847F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E72E66-47D7-46AB-A3FF-A1A696C847F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E72E66-47D7-46AB-A3FF-A1A696C847F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2056E937-84A7-47B6-BBF2-468E7E5E0511}.Debug|Any CPU.ActiveCfg = Debug
+		{2056E937-84A7-47B6-BBF2-468E7E5E0511}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A56F7C2-6439-4472-953D-FABD505BCA84} = {70780612-0C85-4267-A111-87D5F201372E}
+		{781C5C3F-9454-415C-8D37-C9000C4EF8BE} = {70780612-0C85-4267-A111-87D5F201372E}
+		{F9D50CED-E7CA-4916-93AC-2B0C48BDE3DF} = {E377F685-6E93-43DF-BFF6-60C2A7D155D9}
+		{57CCEDD4-479F-4042-90C9-0814A5C4B144} = {E377F685-6E93-43DF-BFF6-60C2A7D155D9}
+		{97E72E66-47D7-46AB-A3FF-A1A696C847F2} = {E377F685-6E93-43DF-BFF6-60C2A7D155D9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B6CCB4B-A422-4D24-A8A8-9E30B9A3BDBF}
+	EndGlobalSection
+EndGlobal

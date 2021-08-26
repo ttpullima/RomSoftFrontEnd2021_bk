@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79717C2D-F8C7-435C-BE64-0894C482BAA4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Romsoft.GESTIONCLINICA.DataAccess</RootNamespace>
+    <AssemblyName>Romsoft.GESTIONCLINICA.DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\ConectionStringRepository.cs" />
+    <Compile Include="Core\IReadOnlyRepository.cs" />
+    <Compile Include="Core\IRepository.cs" />
+    <Compile Include="Core\IWriteOnlyRepository.cs" />
+    <Compile Include="Interfaces\IADM_OCUPACIONRepository\IADM_OCUPACION_Repository.cs" />
+    <Compile Include="Interfaces\ICON_CENTRO_COSTORepository\ICON_CENTRO_COSTORepository.cs" />
+    <Compile Include="Interfaces\ICON_CUENTA_CONTABLERepository\ICON_CUENTA_CONTABLERepository.cs" />
+    <Compile Include="Interfaces\ICVN_CATEGORIA_PAGORepository\ICVN_CATEGORIA_PAGORepository.cs" />
+    <Compile Include="Interfaces\ICVN_CATEGORIA_PAGO_PRECIORepository\ICVN_CATEGORIA_PAGO_PRECIORepository.cs" />
+    <Compile Include="Interfaces\ICVN_CLASIFICACION_SEGUSRepository\ICVN_CLASIFICACION_SEGUSRepository.cs" />
+    <Compile Include="Interfaces\ICVN_CLASIFICACION_SUSALUDRepository\ICVN_CLASIFICACION_SUSALUDRepository.cs" />
+    <Compile Include="Interfaces\ICVN_CLASIFICACION_SUSALUD_ODRepository\ICVN_CLASIFICACION_SUSALUD_ODRepository.cs" />
+    <Compile Include="Interfaces\ICVN_TARIFARIO_SEGUSRepository\ICVN_TARIFARIO_SEGUSRepository.cs" />
+    <Compile Include="Interfaces\ICVN_TARIFARIO_SEGUS_PARTICIPANTERepository\ICVN_TARIFARIO_SEGUS_PARTICIPANTERepository.cs" />
+    <Compile Include="Interfaces\ICVN_TIPO_PRECIORepository\ICVN_TIPO_PRECIORepository.cs" />
+    <Compile Include="Interfaces\ILogRepository\ILogRepository.cs" />
+    <Compile Include="Interfaces\ISEG_ROLRepository\ISEG_ROLRepository.cs" />
+    <Compile Include="Interfaces\ISEG_USUARIORepository\ISEG_USUARIORepository.cs" />
+    <Compile Include="Interfaces\ITIPO_ESTADO_Repository\ITIPO_ESTADORepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tablas\ADM_OCUPACION_Repository.cs" />
+    <Compile Include="Tablas\CON_CENTRO_COSTORepository.cs" />
+    <Compile Include="Tablas\CON_CUENTA_CONTABLERepository.cs" />
+    <Compile Include="Tablas\CVN_CATEGORIA_PAGORepository.cs" />
+    <Compile Include="Tablas\CVN_CATEGORIA_PAGO_PRECIORepository.cs" />
+    <Compile Include="Tablas\CVN_CLASIFICACION_SEGUSRepository.cs" />
+    <Compile Include="Tablas\CVN_CLASIFICACION_SUSALUDRepository.cs" />
+    <Compile Include="Tablas\CVN_CLASIFICACION_SUSALUD_ODRepository.cs" />
+    <Compile Include="Tablas\CVN_TARIFARIO_SEGUSRepository.cs" />
+    <Compile Include="Tablas\CVN_TARIFARIO_SEGUS_PARTICIPANTERepository.cs" />
+    <Compile Include="Tablas\CVN_TIPO_PRECIORepository.cs" />
+    <Compile Include="Tablas\LogRepository.cs" />
+    <Compile Include="Tablas\SEG_ROLRepository.cs" />
+    <Compile Include="Tablas\SEG_USUARIORepository.cs" />
+    <Compile Include="Tablas\TIPO_ESTADORepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Romsoft.GESTIONCLINICA.Common\Romsoft.GESTIONCLINICA.Common.csproj">
+      <Project>{57ccedd4-479f-4042-90c9-0814a5c4b144}</Project>
+      <Name>Romsoft.GESTIONCLINICA.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Romsoft.GESTIONCLINICA.Entidades\Romsoft.GESTIONCLINICA.Entidades.csproj">
+      <Project>{f9d50ced-e7ca-4916-93ac-2b0c48bde3df}</Project>
+      <Name>Romsoft.GESTIONCLINICA.Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

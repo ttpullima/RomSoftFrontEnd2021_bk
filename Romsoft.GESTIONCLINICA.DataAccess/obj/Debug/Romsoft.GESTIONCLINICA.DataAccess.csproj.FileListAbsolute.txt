@@ -1,0 +1,14 @@
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\bin\Debug\Romsoft.GESTIONCLINICA.DataAccess.dll
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\bin\Debug\Romsoft.GESTIONCLINICA.DataAccess.pdb
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\bin\Debug\Romsoft.GESTIONCLINICA.Common.dll
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\bin\Debug\Romsoft.GESTIONCLINICA.Common.pdb
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\obj\Debug\Romsoft.GESTIONCLINICA.DataAccess.csprojAssemblyReference.cache
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\obj\Debug\Romsoft.GESTIONCLINICA.DataAccess.csproj.CopyComplete
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\obj\Debug\Romsoft.GESTIONCLINICA.DataAccess.dll
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\obj\Debug\Romsoft.GESTIONCLINICA.DataAccess.pdb

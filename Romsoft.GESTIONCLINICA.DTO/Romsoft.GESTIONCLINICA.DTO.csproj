@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{97E72E66-47D7-46AB-A3FF-A1A696C847F2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Romsoft.GESTIONCLINICA.DTO</RootNamespace>
+    <AssemblyName>Romsoft.GESTIONCLINICA.DTO</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=3.1.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.3.1.1\lib\net40\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper.Net4, Version=3.1.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.3.1.1\lib\net40\AutoMapper.Net4.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoMapper\AutoMapperConfiguration.cs" />
+    <Compile Include="AutoMapper\DomainToDtoMappingProfile.cs" />
+    <Compile Include="AutoMapper\DtoToDomainMappingProfile.cs" />
+    <Compile Include="AutoMapper\MapperHelper.cs" />
+    <Compile Include="Core\EntityAuditableDTO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TABLAS\ADM_ATENCION\ADM_ATENCIONDTO.cs" />
+    <Compile Include="TABLAS\ADM_ATENCION\ADM_ATENCION_PendingRequest.cs" />
+    <Compile Include="TABLAS\ADM_ATENCION\ADM_ATENCION_PendingResponseDTO.cs" />
+    <Compile Include="TABLAS\ADM_ATENCION\ADM_ATENCION_RequestDTO.cs" />
+    <Compile Include="TABLAS\ADM_ATENCION\ADM_ATENCION_RequestGetAllActiveDTO.cs" />
+    <Compile Include="TABLAS\ADM_ATENCION\ADM_ATENCION_ResponseGetAllActivesDTO.cs" />
+    <Compile Include="TABLAS\ADM_CIE10\ADM_CIE10DTO.cs" />
+    <Compile Include="TABLAS\ADM_CONDICION_PROFESIONAL\ADM_CONDICION_PROFESIONALDTO.cs" />
+    <Compile Include="TABLAS\ADM_CONSULTORIO\ADM_CONSULTORIODTO.cs" />
+    <Compile Include="TABLAS\ADM_DOCUMENTO_AUTORIZACION\ADM_DOCUMENTO_AUTORIZACIONDTO.cs" />
+    <Compile Include="TABLAS\ADM_DOCUMENTO_AUTORIZACION\ADM_DOCUMENTO_AUTORIZACION_REQDTO.cs" />
+    <Compile Include="TABLAS\ADM_DOCUMENTO_AUTORIZACION\ADM_DOCUMENTO_AUTORIZACION_RESDTO.cs" />
+    <Compile Include="TABLAS\ADM_DOCUMENTO_IDENTIDAD\ADM_DOCUMENTO_IDENTIDADDTO.cs" />
+    <Compile Include="TABLAS\ADM_DOCUMENTO_PRESTACION\ADM_DOCUMENTO_PRESTACIONDTO.cs" />
+    <Compile Include="TABLAS\ADM_ESPECIALIDAD\ADM_ESPECIALIDADDTO.cs" />
+    <Compile Include="TABLAS\ADM_ESPECIALIDAD\ADM_ESPECIALIDADPROFESIONALDTO.cs" />
+    <Compile Include="TABLAS\ADM_ESTADO_CIVIL\ADM_ESTADO_CIVILDTO.cs" />
+    <Compile Include="TABLAS\ADM_FORMA_PAGODTO\ADM_FORMA_PAGOReqDTO.cs" />
+    <Compile Include="TABLAS\ADM_FORMA_PAGODTO\ADM_FORMA_PAGOResDTO.cs" />
+    <Compile Include="TABLAS\ADM_GENERO\ADM_GENERODTO.cs" />
+    <Compile Include="TABLAS\ADM_GRUPO_SANGUINEO\ADM_GRUPO_SANGUINEODTO.cs" />
+    <Compile Include="TABLAS\ADM_HABITACION\ADM_HABITACIONDTO.cs" />
+    <Compile Include="TABLAS\ADM_OCUPACION\ADM_OCUPACIONDTO.cs" />
+    <Compile Include="TABLAS\ADM_PACIENTE\ADM_PACIENTEDTO.cs" />
+    <Compile Include="TABLAS\ADM_PACIENTE\ADM_PACIENTE_CONSULTADTO.cs" />
+    <Compile Include="TABLAS\ADM_PROFESIONAL\ADM_PROFESIONALDTO.cs" />
+    <Compile Include="TABLAS\ADM_TIPO_AAFILIACION\ADM_TIPO_AAFILIACIONDTO.cs" />
+    <Compile Include="TABLAS\ADM_TIPO_AFILIACION\ADM_TIPO_AFILIACIONDTO.cs" />
+    <Compile Include="TABLAS\ADM_TIPO_ATENCION\ADM_TIPO_ATENCIONDTO.cs" />
+    <Compile Include="TABLAS\ADM_TIPO_CIE10\ADM_TIPO_CIE10DTO.cs" />
+    <Compile Include="TABLAS\ADM_TIPO_EGRESO\ADM_TIPO_EGRESODTO.cs" />
+    <Compile Include="TABLAS\ADM_TIPO_HOSPITALIZACION\ADM_TIPO_HOSPITALIZACIONDTO.cs" />
+    <Compile Include="TABLAS\ADM_TIPO_PACIENTE\ADM_TIPO_PACIENTEDTO.cs" />
+    <Compile Include="TABLAS\ADM_TIPO_PROFESIONAL\ADM_TIPO_PROFESIONALDTO.cs" />
+    <Compile Include="TABLAS\ADM_UBIGEO\ADM_UBIGEODTO.cs" />
+    <Compile Include="TABLAS\CON_CENTRO_COSTO\CON_CENTRO_COSTODTO.cs" />
+    <Compile Include="TABLAS\CON_CONTACTO\CON_CONTACTODTO.cs" />
+    <Compile Include="TABLAS\CON_CUENTA_CONTABLE\CON_CUENTA_CONTABLEDTO.cs" />
+    <Compile Include="TABLAS\CON_TIPO_CONTACTO\CON_TIPO_CONTACTODTO.cs" />
+    <Compile Include="TABLAS\CVN_BENEFICIO\CVN_BENEFICIODTO.cs" />
+    <Compile Include="TABLAS\CVN_CATEGORIA_PAGO\CVN_CATEGORIA_PAGODTO.cs" />
+    <Compile Include="TABLAS\CVN_CATEGORIA_PAGO_PRECIO\CVN_CATEGORIA_PAGO_PRECIODTO.cs" />
+    <Compile Include="TABLAS\CVN_CLASIFICACION_SEGUS\CVN_CLASIFICACION_SEGUSDTO.cs" />
+    <Compile Include="TABLAS\CVN_CLASIFICACION_SUSALUD\CVN_CLASIFICACION_SUSALUDDTO.cs" />
+    <Compile Include="TABLAS\CVN_CLASIFICACION_SUSALUD_OD\CVN_CLASIFICACION_SUSALUD_ODDTO.cs" />
+    <Compile Include="TABLAS\CVN_MONEDA\CVN_MONEDADTO.cs" />
+    <Compile Include="TABLAS\CVN_PLAN_SEGURO\CVN_PLAN_SEGURODTO.cs" />
+    <Compile Include="TABLAS\CVN_PLAN_SEGURO_DETALLE\CVN_PLAN_SEGURO_DETALLEDTO.cs" />
+    <Compile Include="TABLAS\CVN_PRODUCTO_PLAN\CVN_PRODUCTO_PLANDTO.cs" />
+    <Compile Include="TABLAS\CVN_TARIFARIO_SEGUS\CVN_TARIFARIO_LISTADTO.cs" />
+    <Compile Include="TABLAS\CVN_TARIFARIO_SEGUS\CVN_TARIFARIO_SEGUSDTO.cs" />
+    <Compile Include="TABLAS\CVN_TARIFARIO_SEGUS_PARTICIPANTE\CVN_TARIFARIO_SEGUS_PARTICIPANTEDTO.cs" />
+    <Compile Include="TABLAS\CVN_TIPO_PRECIO\CVN_TIPO_PRECIODTO.cs" />
+    <Compile Include="TABLAS\FAC_DOCUMENTO_PAGO\FAC_COMPROBANTEReqDTO.cs" />
+    <Compile Include="TABLAS\FAC_DOCUMENTO_PAGO\FAC_COMPROBANTE_DetalleDTO.cs" />
+    <Compile Include="TABLAS\FAC_DOCUMENTO_PAGO\FAC_DOCUMENTO_PAGODTO.cs" />
+    <Compile Include="TABLAS\FAC_DOCUMENTO_PAGO\FAC_DOCUMENTO_PAGORequest.cs" />
+    <Compile Include="TABLAS\SEG_ROL\SEG_ROLDTO.cs" />
+    <Compile Include="TABLAS\SEG_USUARIO\LoginDTO.cs" />
+    <Compile Include="TABLAS\SEG_USUARIO\SEG_USUARIODTO.cs" />
+    <Compile Include="TABLAS\SEG_USUARIO\SEG_USUARIOLoginDTO.cs" />
+    <Compile Include="TABLAS\TIPO_ESTADO\TIPO_ESTADODTO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Romsoft.GESTIONCLINICA.Entidades\Romsoft.GESTIONCLINICA.Entidades.csproj">
+      <Project>{f9d50ced-e7ca-4916-93ac-2b0c48bde3df}</Project>
+      <Name>Romsoft.GESTIONCLINICA.Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\packages\AutoMapper.3.1.1\lib\net40\AutoMapper.Net4.dll">
+      <Link>AutoMapper.Net4.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

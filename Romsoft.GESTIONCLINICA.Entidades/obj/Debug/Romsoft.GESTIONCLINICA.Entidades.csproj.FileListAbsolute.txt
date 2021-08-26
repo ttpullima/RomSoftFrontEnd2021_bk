@@ -1,0 +1,50 @@
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Entidades\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Entidades\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.csprojAssemblyReference.cache
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\BackEnd\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Entidades\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\BackEnd\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Entidades\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\BackEnd\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\BackEnd\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\FrontEnd\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Entidades\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\FrontEnd\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Entidades\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\FrontEnd\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\FrontEnd\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb
+D:\ROMSOFT-GIT\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidades\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\ROMSOFT-GIT\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidades\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb
+D:\ROMSOFT-GIT\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.csproj.CoreCompileInputs.cache
+D:\ROMSOFT-GIT\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\ROMSOFT-GIT\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb
+D:\04. Software\Romsoft\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidades\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\04. Software\Romsoft\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidades\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb
+D:\04. Software\Romsoft\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\04. Software\Romsoft\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb
+D:\04. Software\Romsoft\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidades\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\04. Software\Romsoft\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidades\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb
+D:\04. Software\Romsoft\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.csprojAssemblyReference.cache
+D:\04. Software\Romsoft\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\04. Software\Romsoft\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb
+D:\ROMSOFT-GIT\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.csprojAssemblyReference.cache
+D:\ROMSOFT-GIT\FrontEnd\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\ROMSOFT-GIT\FrontEnd\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb
+D:\ROMSOFT-GIT\FrontEnd\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.csproj.CoreCompileInputs.cache
+D:\ROMSOFT-GIT\FrontEnd\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\ROMSOFT-GIT\FrontEnd\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb
+C:\ROMSOFT-GIT\FrontEnd\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+C:\ROMSOFT-GIT\FrontEnd\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb
+C:\ROMSOFT-GIT\FrontEnd\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.csproj.CoreCompileInputs.cache
+C:\ROMSOFT-GIT\FrontEnd\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+C:\ROMSOFT-GIT\FrontEnd\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb
+D:\04. Software\Romsoft\GIT\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\04. Software\Romsoft\GIT\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb
+D:\04. Software\Romsoft\GIT\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.csprojAssemblyReference.cache
+D:\04. Software\Romsoft\GIT\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.csproj.CoreCompileInputs.cache
+D:\04. Software\Romsoft\GIT\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\04. Software\Romsoft\GIT\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb
+D:\04. Software\Romsoft\GIT\FrontEnd\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\04. Software\Romsoft\GIT\FrontEnd\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb
+D:\04. Software\Romsoft\GIT\FrontEnd\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.csprojAssemblyReference.cache
+D:\04. Software\Romsoft\GIT\FrontEnd\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.csproj.CoreCompileInputs.cache
+D:\04. Software\Romsoft\GIT\FrontEnd\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\04. Software\Romsoft\GIT\FrontEnd\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb

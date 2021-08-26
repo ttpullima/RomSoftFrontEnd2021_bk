@@ -1,0 +1,918 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5A56F7C2-6439-4472-953D-FABD505BCA84}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Romsoft.GESTIONCLINICA.Presentacion</RootNamespace>
+    <AssemblyName>Romsoft.GESTIONCLINICA.Presentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApiService\InvokeHelper.cs" />
+    <Compile Include="Core\AccountModel.cs" />
+    <Compile Include="Core\ComunFilter.cs" />
+    <Compile Include="Core\UsuarioModel.cs" />
+    <Compile Include="Core\WindowsSession.cs" />
+    <Compile Include="frmDashboardAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDashboardAdmin.Designer.cs">
+      <DependentUpon>frmDashboardAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPanelPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPanelPrincipal.Designer.cs">
+      <DependentUpon>frmPanelPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\Mensaje.cs" />
+    <Compile Include="Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\HistoriaClinica\frmAtencion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\HistoriaClinica\frmAtencion.Designer.cs">
+      <DependentUpon>frmAtencion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\HistoriaClinica\frmFiltroCama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\HistoriaClinica\frmFiltroCama.Designer.cs">
+      <DependentUpon>frmFiltroCama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\HistoriaClinica\frmAutorizaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\HistoriaClinica\frmAutorizaciones.Designer.cs">
+      <DependentUpon>frmAutorizaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\HistoriaClinica\frmFiltroSiteds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\HistoriaClinica\frmFiltroSiteds.Designer.cs">
+      <DependentUpon>frmFiltroSiteds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\HistoriaClinica\frmFiltroHistoriaClinica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\HistoriaClinica\frmFiltroHistoriaClinica.Designer.cs">
+      <DependentUpon>frmFiltroHistoriaClinica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\HistoriaClinica\frmFiltroUbigeo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\HistoriaClinica\frmFiltroUbigeo.Designer.cs">
+      <DependentUpon>frmFiltroUbigeo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\HistoriaClinica\frmNuevoHistoriaClinica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\HistoriaClinica\frmNuevoHistoriaClinica.Designer.cs">
+      <DependentUpon>frmNuevoHistoriaClinica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\HistoriaClinica\frmListaHistoriaClinica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\HistoriaClinica\frmListaHistoriaClinica.Designer.cs">
+      <DependentUpon>frmListaHistoriaClinica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\HistoriaClinica\frmReporteHistoriaClinica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\HistoriaClinica\frmReporteHistoriaClinica.Designer.cs">
+      <DependentUpon>frmReporteHistoriaClinica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\OrdenServicio\frmFiltroPacienteCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\OrdenServicio\frmFiltroPacienteCuenta.Designer.cs">
+      <DependentUpon>frmFiltroPacienteCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\OrdenServicio\frmFiltroProfesional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\OrdenServicio\frmFiltroProfesional.Designer.cs">
+      <DependentUpon>frmFiltroProfesional.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\OrdenServicio\frmFiltroOrdenServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\OrdenServicio\frmFiltroOrdenServicio.Designer.cs">
+      <DependentUpon>frmFiltroOrdenServicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\OrdenServicio\frmListaOrdenServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\OrdenServicio\frmListaOrdenServicio.Designer.cs">
+      <DependentUpon>frmListaOrdenServicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\OrdenServicio\frmNuevoOrdenServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\OrdenServicio\frmNuevoOrdenServicio.Designer.cs">
+      <DependentUpon>frmNuevoOrdenServicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\Presupuesto\frmObservacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\Presupuesto\frmObservacion.Designer.cs">
+      <DependentUpon>frmObservacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\Presupuesto\frmFiltroTarifarioSegus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\Presupuesto\frmFiltroTarifarioSegus.designer.cs">
+      <DependentUpon>frmFiltroTarifarioSegus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\Presupuesto\frmFiltroPresupuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\Presupuesto\frmFiltroPresupuesto.Designer.cs">
+      <DependentUpon>frmFiltroPresupuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\Presupuesto\frmListaPresupuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\Presupuesto\frmListaPresupuesto.Designer.cs">
+      <DependentUpon>frmListaPresupuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\Presupuesto\frmPlantillaPresupuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\Presupuesto\frmPlantillaPresupuesto.Designer.cs">
+      <DependentUpon>frmPlantillaPresupuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\Presupuesto\frmNuevoPresupuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\Presupuesto\frmNuevoPresupuesto.Designer.cs">
+      <DependentUpon>frmNuevoPresupuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConsulta\Diagnostico\frmObtenerDiagnostico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConsulta\Diagnostico\frmObtenerDiagnostico.designer.cs">
+      <DependentUpon>frmObtenerDiagnostico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConsulta\Paciente\frmObtenerPacienteCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConsulta\Paciente\frmObtenerPacienteCuenta.Designer.cs">
+      <DependentUpon>frmObtenerPacienteCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConsulta\Producto\frmObtenerProductoDispensacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConsulta\Producto\frmObtenerProductoDispensacion.Designer.cs">
+      <DependentUpon>frmObtenerProductoDispensacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConsulta\Producto\frmObtenerProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConsulta\Producto\frmObtenerProducto.Designer.cs">
+      <DependentUpon>frmObtenerProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\CategoriaPago\frmFiltroCategoriaPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\CategoriaPago\frmFiltroCategoriaPago.Designer.cs">
+      <DependentUpon>frmFiltroCategoriaPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\CategoriaPago\frmListaCategoriaPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\CategoriaPago\frmListaCategoriaPago.Designer.cs">
+      <DependentUpon>frmListaCategoriaPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\CategoriaPago\frmNuevoCategoriaPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\CategoriaPago\frmNuevoCategoriaPago.Designer.cs">
+      <DependentUpon>frmNuevoCategoriaPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\Contacto\frmFiltroContacto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\Contacto\frmFiltroContacto.designer.cs">
+      <DependentUpon>frmFiltroContacto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\Contacto\frmListaContacto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\Contacto\frmListaContacto.designer.cs">
+      <DependentUpon>frmListaContacto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\Contacto\frmNuevoContacto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\Contacto\frmNuevoContacto.designer.cs">
+      <DependentUpon>frmNuevoContacto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\Profesional\frmFiltroProfesional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\Profesional\frmFiltroProfesional.Designer.cs">
+      <DependentUpon>frmFiltroProfesional.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\Profesional\frmListaProfesional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\Profesional\frmListaProfesional.Designer.cs">
+      <DependentUpon>frmListaProfesional.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\Profesional\frmNuevoProfesional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\Profesional\frmNuevoProfesional.Designer.cs">
+      <DependentUpon>frmNuevoProfesional.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\Petitorio\frmFiltroCopiarPetitorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\Petitorio\frmFiltroCopiarPetitorio.designer.cs">
+      <DependentUpon>frmFiltroCopiarPetitorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\Petitorio\frmListaPetitorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\Petitorio\frmListaPetitorio.Designer.cs">
+      <DependentUpon>frmListaPetitorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\Petitorio\frmListaPetitorios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\Petitorio\frmListaPetitorios.Designer.cs">
+      <DependentUpon>frmListaPetitorios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\Petitorio\frmNuevoPetitorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\Petitorio\frmNuevoPetitorio.designer.cs">
+      <DependentUpon>frmNuevoPetitorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\PlanSeguro\frmFiltroBeneficio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\PlanSeguro\frmFiltroBeneficio.designer.cs">
+      <DependentUpon>frmFiltroBeneficio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\PlanSeguro\frmFiltroPlanSeguro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\PlanSeguro\frmFiltroPlanSeguro.designer.cs">
+      <DependentUpon>frmFiltroPlanSeguro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\PlanSeguro\frmListaPlanSeguro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\PlanSeguro\frmListaPlanSeguro.designer.cs">
+      <DependentUpon>frmListaPlanSeguro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\PlanSeguro\frmNuevoPlanSeguro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\PlanSeguro\frmNuevoPlanSeguro.designer.cs">
+      <DependentUpon>frmNuevoPlanSeguro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\TarifarioSegus\frmFiltroCategoriaPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\TarifarioSegus\frmFiltroCategoriaPago.Designer.cs">
+      <DependentUpon>frmFiltroCategoriaPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\TarifarioSegus\frmFiltroParticipante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\TarifarioSegus\frmFiltroParticipante.Designer.cs">
+      <DependentUpon>frmFiltroParticipante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\TarifarioSegus\frmFiltroTarifario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\TarifarioSegus\frmFiltroTarifario.Designer.cs">
+      <DependentUpon>frmFiltroTarifario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\TarifarioSegus\frmListaTarifarioSegus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\TarifarioSegus\frmListaTarifarioSegus.Designer.cs">
+      <DependentUpon>frmListaTarifarioSegus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\TarifarioSegus\frmNuevoTarifarioSegus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\TarifarioSegus\frmNuevoTarifarioSegus.Designer.cs">
+      <DependentUpon>frmNuevoTarifarioSegus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloFacturacion\Prefacturacion\frmPrefacturacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloFacturacion\Prefacturacion\frmPrefacturacion.Designer.cs">
+      <DependentUpon>frmPrefacturacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloFacturacion\Prefacturacion\frmPrueba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloFacturacion\Prefacturacion\frmPrueba.Designer.cs">
+      <DependentUpon>frmPrueba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloFacturacion\Liquidacion\frmFiltroLiquidacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloFacturacion\Liquidacion\frmFiltroLiquidacion.Designer.cs">
+      <DependentUpon>frmFiltroLiquidacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloFacturacion\Liquidacion\frmListaLiquidacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloFacturacion\Liquidacion\frmListaLiquidacion.Designer.cs">
+      <DependentUpon>frmListaLiquidacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloFacturacion\Liquidacion\frmNuevoLiquidacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloFacturacion\Liquidacion\frmNuevoLiquidacion.Designer.cs">
+      <DependentUpon>frmNuevoLiquidacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Almacen\frmFiltroAlmacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Almacen\frmFiltroAlmacen.Designer.cs">
+      <DependentUpon>frmFiltroAlmacen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Almacen\frmListaAlmacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Almacen\frmListaAlmacen.Designer.cs">
+      <DependentUpon>frmListaAlmacen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Almacen\frmNuevoAlmacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Almacen\frmNuevoAlmacen.Designer.cs">
+      <DependentUpon>frmNuevoAlmacen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Egreso\frmFiltroEgreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Egreso\frmFiltroEgreso.Designer.cs">
+      <DependentUpon>frmFiltroEgreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Egreso\frmDevolverDispensacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Egreso\frmDevolverDispensacion.Designer.cs">
+      <DependentUpon>frmDevolverDispensacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Egreso\frmListaEgreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Egreso\frmListaEgreso.Designer.cs">
+      <DependentUpon>frmListaEgreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Egreso\frmNuevoOtros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Egreso\frmNuevoOtros.Designer.cs">
+      <DependentUpon>frmNuevoOtros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Egreso\frmNuevoEgreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Egreso\frmNuevoEgreso.Designer.cs">
+      <DependentUpon>frmNuevoEgreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Ingreso\frmFiltroOrdenGuia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Ingreso\frmFiltroOrdenGuia.Designer.cs">
+      <DependentUpon>frmFiltroOrdenGuia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Ingreso\frmFiltroProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Ingreso\frmFiltroProveedor.Designer.cs">
+      <DependentUpon>frmFiltroProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Ingreso\frmFiltroProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Ingreso\frmFiltroProducto.Designer.cs">
+      <DependentUpon>frmFiltroProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Ingreso\frmFiltroIngreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Ingreso\frmFiltroIngreso.Designer.cs">
+      <DependentUpon>frmFiltroIngreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Ingreso\frmListaIngreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Ingreso\frmListaIngreso.Designer.cs">
+      <DependentUpon>frmListaIngreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Ingreso\frmNuevoIngreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Ingreso\frmNuevoIngreso.Designer.cs">
+      <DependentUpon>frmNuevoIngreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Producto\frmFiltroProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Producto\frmFiltroProducto.Designer.cs">
+      <DependentUpon>frmFiltroProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Producto\frmListaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Producto\frmListaProducto.Designer.cs">
+      <DependentUpon>frmListaProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Producto\frmNuevoProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloFarmacia\Producto\frmNuevoProducto.Designer.cs">
+      <DependentUpon>frmNuevoProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloSeguridad\Usuario\frmFiltroUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloSeguridad\Usuario\frmFiltroUsuario.Designer.cs">
+      <DependentUpon>frmFiltroUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloSeguridad\Usuario\frmListaUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloSeguridad\Usuario\frmListaUsuario.Designer.cs">
+      <DependentUpon>frmListaUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloSeguridad\Usuario\frmNuevoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloSeguridad\Usuario\frmNuevoUsuario.Designer.cs">
+      <DependentUpon>frmNuevoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConsulta\Paciente\frmObtenerPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConsulta\Paciente\frmObtenerPaciente.designer.cs">
+      <DependentUpon>frmObtenerPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloTablas\Ocupacion\frmFiltroOcupacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloTablas\Ocupacion\frmFiltroOcupacion.Designer.cs">
+      <DependentUpon>frmFiltroOcupacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloTablas\Ocupacion\frmListaOcupacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloTablas\Ocupacion\frmListaOcupacion.Designer.cs">
+      <DependentUpon>frmListaOcupacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloTablas\Ocupacion\frmNuevoOcupacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloTablas\Ocupacion\frmNuevoOcupacion.Designer.cs">
+      <DependentUpon>frmNuevoOcupacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\ConstantesWindows.cs" />
+    <Compile Include="Utilities\WaitFormFunc.cs" />
+    <EmbeddedResource Include="frmDashboardAdmin.resx">
+      <DependentUpon>frmDashboardAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPanelPrincipal.resx">
+      <DependentUpon>frmPanelPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\HistoriaClinica\frmAtencion.resx">
+      <DependentUpon>frmAtencion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\HistoriaClinica\frmFiltroCama.resx">
+      <DependentUpon>frmFiltroCama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\HistoriaClinica\frmAutorizaciones.resx">
+      <DependentUpon>frmAutorizaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\HistoriaClinica\frmFiltroSiteds.resx">
+      <DependentUpon>frmFiltroSiteds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\HistoriaClinica\frmFiltroHistoriaClinica.resx">
+      <DependentUpon>frmFiltroHistoriaClinica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\HistoriaClinica\frmFiltroUbigeo.resx">
+      <DependentUpon>frmFiltroUbigeo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\HistoriaClinica\frmNuevoHistoriaClinica.resx">
+      <DependentUpon>frmNuevoHistoriaClinica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\HistoriaClinica\frmListaHistoriaClinica.resx">
+      <DependentUpon>frmListaHistoriaClinica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\HistoriaClinica\frmReporteHistoriaClinica.resx">
+      <DependentUpon>frmReporteHistoriaClinica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\HistoriaClinica\Report1.rdlc" />
+    <EmbeddedResource Include="ModuloAdmision\OrdenServicio\frmFiltroPacienteCuenta.resx">
+      <DependentUpon>frmFiltroPacienteCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\OrdenServicio\frmFiltroProfesional.resx">
+      <DependentUpon>frmFiltroProfesional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\OrdenServicio\frmFiltroOrdenServicio.resx">
+      <DependentUpon>frmFiltroOrdenServicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\OrdenServicio\frmListaOrdenServicio.resx">
+      <DependentUpon>frmListaOrdenServicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\OrdenServicio\frmNuevoOrdenServicio.resx">
+      <DependentUpon>frmNuevoOrdenServicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\Presupuesto\frmObservacion.resx">
+      <DependentUpon>frmObservacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\Presupuesto\frmFiltroTarifarioSegus.resx">
+      <DependentUpon>frmFiltroTarifarioSegus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\Presupuesto\frmFiltroPresupuesto.resx">
+      <DependentUpon>frmFiltroPresupuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\Presupuesto\frmListaPresupuesto.resx">
+      <DependentUpon>frmListaPresupuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\Presupuesto\frmPlantillaPresupuesto.resx">
+      <DependentUpon>frmPlantillaPresupuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\Presupuesto\frmNuevoPresupuesto.resx">
+      <DependentUpon>frmNuevoPresupuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConsulta\Diagnostico\frmObtenerDiagnostico.resx">
+      <DependentUpon>frmObtenerDiagnostico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConsulta\Paciente\frmObtenerPacienteCuenta.resx">
+      <DependentUpon>frmObtenerPacienteCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConsulta\Producto\frmObtenerProductoDispensacion.resx">
+      <DependentUpon>frmObtenerProductoDispensacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConsulta\Producto\frmObtenerProducto.resx">
+      <DependentUpon>frmObtenerProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\CategoriaPago\frmFiltroCategoriaPago.resx">
+      <DependentUpon>frmFiltroCategoriaPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\CategoriaPago\frmListaCategoriaPago.resx">
+      <DependentUpon>frmListaCategoriaPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\CategoriaPago\frmNuevoCategoriaPago.resx">
+      <DependentUpon>frmNuevoCategoriaPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\Contacto\frmFiltroContacto.resx">
+      <DependentUpon>frmFiltroContacto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\Contacto\frmListaContacto.resx">
+      <DependentUpon>frmListaContacto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\Contacto\frmNuevoContacto.resx">
+      <DependentUpon>frmNuevoContacto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\Profesional\frmFiltroProfesional.resx">
+      <DependentUpon>frmFiltroProfesional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\Profesional\frmListaProfesional.resx">
+      <DependentUpon>frmListaProfesional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\Profesional\frmNuevoProfesional.resx">
+      <DependentUpon>frmNuevoProfesional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\Petitorio\frmFiltroCopiarPetitorio.resx">
+      <DependentUpon>frmFiltroCopiarPetitorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\Petitorio\frmListaPetitorio.resx">
+      <DependentUpon>frmListaPetitorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\Petitorio\frmListaPetitorios.resx">
+      <DependentUpon>frmListaPetitorios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\Petitorio\frmNuevoPetitorio.resx">
+      <DependentUpon>frmNuevoPetitorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\PlanSeguro\frmFiltroBeneficio.resx">
+      <DependentUpon>frmFiltroBeneficio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\PlanSeguro\frmFiltroPlanSeguro.resx">
+      <DependentUpon>frmFiltroPlanSeguro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\PlanSeguro\frmListaPlanSeguro.resx">
+      <DependentUpon>frmListaPlanSeguro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\PlanSeguro\frmNuevoPlanSeguro.resx">
+      <DependentUpon>frmNuevoPlanSeguro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\TarifarioSegus\frmFiltroCategoriaPago.resx">
+      <DependentUpon>frmFiltroCategoriaPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\TarifarioSegus\frmFiltroParticipante.resx">
+      <DependentUpon>frmFiltroParticipante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\TarifarioSegus\frmFiltroTarifario.resx">
+      <DependentUpon>frmFiltroTarifario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\TarifarioSegus\frmListaTarifarioSegus.resx">
+      <DependentUpon>frmListaTarifarioSegus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\TarifarioSegus\frmNuevoTarifarioSegus.resx">
+      <DependentUpon>frmNuevoTarifarioSegus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloFacturacion\Prefacturacion\frmPrefacturacion.resx">
+      <DependentUpon>frmPrefacturacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloFacturacion\Liquidacion\frmFiltroLiquidacion.resx">
+      <DependentUpon>frmFiltroLiquidacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloFacturacion\Liquidacion\frmListaLiquidacion.resx">
+      <DependentUpon>frmListaLiquidacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloFacturacion\Liquidacion\frmNuevoLiquidacion.resx">
+      <DependentUpon>frmNuevoLiquidacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloFarmacia\Almacen\frmFiltroAlmacen.resx">
+      <DependentUpon>frmFiltroAlmacen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloFarmacia\Almacen\frmListaAlmacen.resx">
+      <DependentUpon>frmListaAlmacen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloFarmacia\Almacen\frmNuevoAlmacen.resx">
+      <DependentUpon>frmNuevoAlmacen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloFarmacia\Egreso\frmFiltroEgreso.resx">
+      <DependentUpon>frmFiltroEgreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloFarmacia\Egreso\frmDevolverDispensacion.resx">
+      <DependentUpon>frmDevolverDispensacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloFarmacia\Egreso\frmListaEgreso.resx">
+      <DependentUpon>frmListaEgreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloFarmacia\Egreso\frmNuevoOtros.resx">
+      <DependentUpon>frmNuevoOtros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloFarmacia\Egreso\frmNuevoEgreso.resx">
+      <DependentUpon>frmNuevoEgreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloFarmacia\Ingreso\frmFiltroOrdenGuia.resx">
+      <DependentUpon>frmFiltroOrdenGuia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloFarmacia\Ingreso\frmFiltroProveedor.resx">
+      <DependentUpon>frmFiltroProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloFarmacia\Ingreso\frmFiltroProducto.resx">
+      <DependentUpon>frmFiltroProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloFarmacia\Ingreso\frmFiltroIngreso.resx">
+      <DependentUpon>frmFiltroIngreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloFarmacia\Ingreso\frmListaIngreso.resx">
+      <DependentUpon>frmListaIngreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloFarmacia\Ingreso\frmNuevoIngreso.resx">
+      <DependentUpon>frmNuevoIngreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloFarmacia\Producto\frmFiltroProducto.resx">
+      <DependentUpon>frmFiltroProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloFarmacia\Producto\frmListaProducto.resx">
+      <DependentUpon>frmListaProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloFarmacia\Producto\frmNuevoProducto.resx">
+      <DependentUpon>frmNuevoProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloSeguridad\Usuario\frmFiltroUsuario.resx">
+      <DependentUpon>frmFiltroUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloSeguridad\Usuario\frmListaUsuario.resx">
+      <DependentUpon>frmListaUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloSeguridad\Usuario\frmNuevoUsuario.resx">
+      <DependentUpon>frmNuevoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConsulta\Paciente\frmObtenerPaciente.resx">
+      <DependentUpon>frmObtenerPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloTablas\Ocupacion\frmFiltroOcupacion.resx">
+      <DependentUpon>frmFiltroOcupacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloTablas\Ocupacion\frmListaOcupacion.resx">
+      <DependentUpon>frmListaOcupacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloTablas\Ocupacion\frmNuevoOcupacion.resx">
+      <DependentUpon>frmNuevoOcupacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\Romsoft.GESTIONCLINICA.DTO.TABLAS.ADM_ATENCION.ADM_ATENCION_PendingResponseDTO.datasource" />
+    <None Include="Properties\DataSources\Romsoft.GESTIONCLINICA.DTO.TABLAS.ADM_ATENCION.ADM_ATENCION_ResponseGetAllActivesDTO.datasource" />
+    <None Include="Properties\DataSources\Romsoft.GESTIONCLINICA.DTO.TABLAS.ADM_CIE10.ADM_CIE10DTO.datasource" />
+    <None Include="Properties\DataSources\Romsoft.GESTIONCLINICA.DTO.TABLAS.ADM_DOCUMENTO_AUTORIZACION.ADM_DOCUMENTO_AUTORIZACIONDTO.datasource" />
+    <None Include="Properties\DataSources\Romsoft.GESTIONCLINICA.DTO.TABLAS.ADM_OCUPACION.ADM_OCUPACIONDTO.datasource" />
+    <None Include="Properties\DataSources\Romsoft.GESTIONCLINICA.DTO.TABLAS.ADM_PACIENTE.ADM_PACIENTEDTO.datasource" />
+    <None Include="Properties\DataSources\Romsoft.GESTIONCLINICA.DTO.TABLAS.ADM_UBIGEO.ADM_UBIGEODTO.datasource" />
+    <None Include="Properties\DataSources\Romsoft.GESTIONCLINICA.DTO.TABLAS.CON_CONTACTO.CON_CONTACTODTO.datasource" />
+    <None Include="Properties\DataSources\Romsoft.GESTIONCLINICA.DTO.TABLAS.CVN_CATEGORIA_PAGO.CVN_CATEGORIA_PAGODTO.datasource" />
+    <None Include="Properties\DataSources\Romsoft.GESTIONCLINICA.DTO.TABLAS.CVN_PLAN_SEGURO.CVN_PLAN_SEGURODTO.datasource" />
+    <None Include="Properties\DataSources\Romsoft.GESTIONCLINICA.DTO.TABLAS.CVN_TARIFARIO_SEGUS.CVN_TARIFARIO_LISTADTO.datasource" />
+    <None Include="Properties\DataSources\Romsoft.GESTIONCLINICA.DTO.TABLAS.SEG_USUARIO.SEG_USUARIODTO.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Romsoft.GESTIONCLINICA.Common\Romsoft.GESTIONCLINICA.Common.csproj">
+      <Project>{57ccedd4-479f-4042-90c9-0814a5c4b144}</Project>
+      <Name>Romsoft.GESTIONCLINICA.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Romsoft.GESTIONCLINICA.DTO\Romsoft.GESTIONCLINICA.DTO.csproj">
+      <Project>{97e72e66-47d7-46ab-a3ff-a1a696c847f2}</Project>
+      <Name>Romsoft.GESTIONCLINICA.DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Archivos\Iconos\RomsoftICO5.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Archivos\Imagenes\RomsoftPNG9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Archivos\Imagenes\RomsoftPNG5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading.gif" />
+    <None Include="Resources\Archivos\Imagenes\icono-cliente.png" />
+    <None Include="Resources\Archivos\Iconos\salvar %282%29.png" />
+    <None Include="Resources\Archivos\Iconos\cancelar.png" />
+    <None Include="Resources\Archivos\Iconos\buscar.png" />
+    <None Include="Resources\Archivos\Iconos\Guardar.jpeg" />
+    <None Include="Resources\Archivos\Iconos\Cancelar.jpeg" />
+    <None Include="Resources\Archivos\Imagenes\FondoPrincipal.jpeg" />
+    <Content Include="Resources\Archivos\Imagenes\loader3.gif" />
+    <Content Include="Resources\Archivos\Imagenes\LOGOPNG.png" />
+    <Content Include="Resources\Archivos\Imagenes\PNG1.png" />
+    <Content Include="Resources\Archivos\Imagenes\PNG2.png" />
+    <Content Include="Resources\Archivos\Imagenes\PNG3.png" />
+    <Content Include="Resources\Archivos\Imagenes\PNG4.png" />
+    <Content Include="Resources\Archivos\Imagenes\PNG5.png" />
+    <Content Include="Resources\Archivos\Imagenes\SUNAT.png" />
+    <Content Include="Resources\Archivos\Imagenes\SUSALUD.ico" />
+    <None Include="Resources\Archivos\Iconos\add.png" />
+    <None Include="Resources\Archivos\Iconos\filtrar.png" />
+    <None Include="Resources\Archivos\Iconos\Cerrar.png" />
+    <None Include="Resources\Archivos\Iconos\Editar2.png" />
+    <None Include="Resources\Archivos\Iconos\Eliminar2.png" />
+    <Content Include="Resources\Archivos\Iconos\16-caja-fuerte.png" />
+    <Content Include="Resources\Archivos\Iconos\16-cerrar-sesion.png" />
+    <Content Include="Resources\Archivos\Iconos\16-comprobante.png" />
+    <Content Include="Resources\Archivos\Iconos\16-configuraciones.png" />
+    <Content Include="Resources\Archivos\Iconos\16-editar.png" />
+    <Content Include="Resources\Archivos\Iconos\16-filtrar.png" />
+    <Content Include="Resources\Archivos\Iconos\16-gastos.png" />
+    <Content Include="Resources\Archivos\Iconos\16-grupo.png" />
+    <Content Include="Resources\Archivos\Iconos\16-ley.png" />
+    <Content Include="Resources\Archivos\Iconos\16-maleta.png" />
+    <Content Include="Resources\Archivos\Iconos\16-medicamento.png" />
+    <Content Include="Resources\Archivos\Iconos\16-medico.png" />
+    <Content Include="Resources\Archivos\Iconos\16-Nuevo.png" />
+    <Content Include="Resources\Archivos\Iconos\16-papel.png" />
+    <Content Include="Resources\Archivos\Iconos\16-perfil-del-usuario.png" />
+    <Content Include="Resources\Archivos\Iconos\16-punto-de-venta.png" />
+    <Content Include="Resources\Archivos\Iconos\16-quimica.png" />
+    <Content Include="Resources\Archivos\Iconos\16-recepcion.png" />
+    <Content Include="Resources\Archivos\Iconos\16-tabla.png" />
+    <Content Include="Resources\Archivos\Iconos\16-usuario.png" />
+    <Content Include="Resources\Archivos\Iconos\24-caja-fuerte.png" />
+    <Content Include="Resources\Archivos\Iconos\24-cerrar-sesion.png" />
+    <Content Include="Resources\Archivos\Iconos\24-comprobante.png" />
+    <Content Include="Resources\Archivos\Iconos\24-configuraciones.png" />
+    <Content Include="Resources\Archivos\Iconos\24-filtrar.png" />
+    <Content Include="Resources\Archivos\Iconos\24-gastos.png" />
+    <Content Include="Resources\Archivos\Iconos\24-grupo.png" />
+    <Content Include="Resources\Archivos\Iconos\24-ley.png" />
+    <Content Include="Resources\Archivos\Iconos\24-maleta.png" />
+    <Content Include="Resources\Archivos\Iconos\24-medicamento.png" />
+    <Content Include="Resources\Archivos\Iconos\24-medico.png" />
+    <Content Include="Resources\Archivos\Iconos\24-nuevo.png" />
+    <Content Include="Resources\Archivos\Iconos\24-papel.png" />
+    <Content Include="Resources\Archivos\Iconos\24-perfil-del-usuario.png" />
+    <Content Include="Resources\Archivos\Iconos\24-punto-de-venta.png" />
+    <Content Include="Resources\Archivos\Iconos\24-quimica.png" />
+    <Content Include="Resources\Archivos\Iconos\24-recepcion.png" />
+    <Content Include="Resources\Archivos\Iconos\24-tabla.png" />
+    <Content Include="Resources\Archivos\Iconos\24-usuario.png" />
+    <Content Include="Resources\Archivos\Iconos\32-caja-fuerte.png" />
+    <Content Include="Resources\Archivos\Iconos\32-cerrar-sesion.png" />
+    <Content Include="Resources\Archivos\Iconos\32-comprobante.png" />
+    <Content Include="Resources\Archivos\Iconos\32-configuraciones.png" />
+    <Content Include="Resources\Archivos\Iconos\32-filtrar.png" />
+    <Content Include="Resources\Archivos\Iconos\32-gastos.png" />
+    <Content Include="Resources\Archivos\Iconos\32-grupo.png" />
+    <Content Include="Resources\Archivos\Iconos\32-ley.png" />
+    <Content Include="Resources\Archivos\Iconos\32-maleta.png" />
+    <Content Include="Resources\Archivos\Iconos\32-medicamento.png" />
+    <Content Include="Resources\Archivos\Iconos\32-medico.png" />
+    <Content Include="Resources\Archivos\Iconos\32-nuevo.png" />
+    <Content Include="Resources\Archivos\Iconos\32-papel.png" />
+    <Content Include="Resources\Archivos\Iconos\32-perfil-del-usuario.png" />
+    <Content Include="Resources\Archivos\Iconos\32-punto-de-venta.png" />
+    <Content Include="Resources\Archivos\Iconos\32-quimica.png" />
+    <Content Include="Resources\Archivos\Iconos\32-recepcion.png" />
+    <Content Include="Resources\Archivos\Iconos\32-tabla.png" />
+    <Content Include="Resources\Archivos\Iconos\32-usuario.png" />
+    <Content Include="Resources\Archivos\Iconos\informe-medico.png" />
+    <None Include="Resources\exportar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

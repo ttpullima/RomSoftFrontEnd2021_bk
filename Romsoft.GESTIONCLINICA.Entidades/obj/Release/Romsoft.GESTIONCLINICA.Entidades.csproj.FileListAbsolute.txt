@@ -1,0 +1,10 @@
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Entidades\bin\Release\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Entidades\bin\Release\Romsoft.GESTIONCLINICA.Entidades.pdb
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Entidades\obj\Release\Romsoft.GESTIONCLINICA.Entidades.csprojAssemblyReference.cache
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Entidades\obj\Release\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Entidades\obj\Release\Romsoft.GESTIONCLINICA.Entidades.pdb
+C:\ROMSOFT-GIT\FrontEnd\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\bin\Release\Romsoft.GESTIONCLINICA.Entidades.dll
+C:\ROMSOFT-GIT\FrontEnd\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\bin\Release\Romsoft.GESTIONCLINICA.Entidades.pdb
+C:\ROMSOFT-GIT\FrontEnd\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\obj\Release\Romsoft.GESTIONCLINICA.Entidades.csproj.CoreCompileInputs.cache
+C:\ROMSOFT-GIT\FrontEnd\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\obj\Release\Romsoft.GESTIONCLINICA.Entidades.dll
+C:\ROMSOFT-GIT\FrontEnd\RomsoftFrontEnd2021\Romsoft.GESTIONCLINICA.Entidades\obj\Release\Romsoft.GESTIONCLINICA.Entidades.pdb

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6F284218-62EE-44A6-9F40-AB6CA64703B1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Romsoft.GESTIONCLINICA.Business.Logic</RootNamespace>
+    <AssemblyName>Romsoft.GESTIONCLINICA.Business.Logic</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\ILogic.cs" />
+    <Compile Include="Core\IReadOnlyLogic.cs" />
+    <Compile Include="Core\IWriteOnlyLogic.cs" />
+    <Compile Include="Interfaces\CVN_CLASIFICACION_SEGUSBL\ICVN_CLASIFICACION_SEGUSBL.cs" />
+    <Compile Include="Interfaces\CVN_CLASIFICACION_SUSALUDBL\ICVN_CLASIFICACION_SUSALUDBL.cs" />
+    <Compile Include="Interfaces\IADM_OCUPACIONBL\IADM_OCUPACIONBL.cs" />
+    <Compile Include="Interfaces\ICON_CENTRO_COSTOBL\ICON_CENTRO_COSTOBL.cs" />
+    <Compile Include="Interfaces\ICON_CUENTA_CONTABLEBL\ICON_CUENTA_CONTABLEBL.cs" />
+    <Compile Include="Interfaces\ICVN_CATEGORIA_PAGOBL\ICVN_CATEGORIA_PAGOBL.cs" />
+    <Compile Include="Interfaces\ICVN_CATEGORIA_PAGO_PRECIOBL\ICVN_CATEGORIA_PAGO_PRECIOBL.cs" />
+    <Compile Include="Interfaces\ICVN_CLASIFICACION_SUSALUD_ODBL\ICVN_CLASIFICACION_SUSALUD_ODBL.cs" />
+    <Compile Include="Interfaces\ICVN_TARIFARIO_SEGUSBL\ICVN_TARIFARIO_SEGUSBL.cs" />
+    <Compile Include="Interfaces\ICVN_TARIFARIO_SEGUS_PARTICIPANTEBL\ICVN_TARIFARIO_SEGUS_PARTICIPANTEBL.cs" />
+    <Compile Include="Interfaces\ICVN_TIPO_PRECIOBL\ICVN_TIPO_PRECIOBL.cs" />
+    <Compile Include="Interfaces\ILog\ILogBL.cs" />
+    <Compile Include="Interfaces\ISEG_ROLBL\ISEG_ROLBL.cs" />
+    <Compile Include="Interfaces\ISEG_USUARIO\ISEG_USUARIOBL.cs" />
+    <Compile Include="Interfaces\ITIPO_ESTADOBL\ITIPO_ESTADOBL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tablas\ADM_OCUPACIONBL.cs" />
+    <Compile Include="Tablas\CON_CENTRO_COSTOBL.cs" />
+    <Compile Include="Tablas\CON_CUENTA_CONTABLEBL.cs" />
+    <Compile Include="Tablas\CVN_CATEGORIA_PAGOBL.cs" />
+    <Compile Include="Tablas\CVN_CATEGORIA_PAGO_PRECIOBL.cs" />
+    <Compile Include="Tablas\CVN_CLASIFICACION_SEGUSBL.cs" />
+    <Compile Include="Tablas\CVN_CLASIFICACION_SUSALUDBL.cs" />
+    <Compile Include="Tablas\CVN_CLASIFICACION_SUSALUD_ODBL.cs" />
+    <Compile Include="Tablas\CVN_TARIFARIO_SEGUSBL.cs" />
+    <Compile Include="Tablas\CVN_TARIFARIO_SEGUS_PARTICIPANTEBL.cs" />
+    <Compile Include="Tablas\CVN_TIPO_PRECIOBL.cs" />
+    <Compile Include="Tablas\LogBL.cs" />
+    <Compile Include="Tablas\SEG_ROLBL.cs" />
+    <Compile Include="Tablas\SEG_USUARIOBL.cs" />
+    <Compile Include="Tablas\TIPO_ESTADOBL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Romsoft.GESTIONCLINICA.Common\Romsoft.GESTIONCLINICA.Common.csproj">
+      <Project>{57ccedd4-479f-4042-90c9-0814a5c4b144}</Project>
+      <Name>Romsoft.GESTIONCLINICA.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Romsoft.GESTIONCLINICA.DataAccess\Romsoft.GESTIONCLINICA.DataAccess.csproj">
+      <Project>{79717c2d-f8c7-435c-be64-0894c482baa4}</Project>
+      <Name>Romsoft.GESTIONCLINICA.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Romsoft.GESTIONCLINICA.Entidades\Romsoft.GESTIONCLINICA.Entidades.csproj">
+      <Project>{f9d50ced-e7ca-4916-93ac-2b0c48bde3df}</Project>
+      <Name>Romsoft.GESTIONCLINICA.Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

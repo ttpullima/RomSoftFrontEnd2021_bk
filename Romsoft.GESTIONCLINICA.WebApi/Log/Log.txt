@@ -1,0 +1,762 @@
+2020-11-29 12:43:01,314 ERROR  - Mensaje: Id Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.GetAllPaging(PaginationParameter paginationParameters) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 96
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.GetAllPaging(PaginationParameter paginationParameters) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 37
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.GetAllPaging(PaginationParameter paginationParameters) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 131
+2020-11-29 12:45:17,266 ERROR  - Mensaje: clave Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.GetAllPaging(PaginationParameter paginationParameters) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 96
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.GetAllPaging(PaginationParameter paginationParameters) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 37
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.GetAllPaging(PaginationParameter paginationParameters) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 131
+2020-11-29 19:18:03,879 ERROR  - Mensaje: Referencia a objeto no establecida como instancia de un objeto. Trace:    en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 205
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 52
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.Update(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 211
+2020-11-29 19:19:46,536 ERROR  - Mensaje: Referencia a objeto no establecida como instancia de un objeto. Trace:    en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 205
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 52
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.Update(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 211
+2020-11-29 19:25:41,772 ERROR  - Mensaje: Referencia a objeto no establecida como instancia de un objeto. Trace:    en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 205
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 52
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.Update(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 211
+2020-11-29 19:53:36,036 ERROR  - Mensaje: Referencia a objeto no establecida como instancia de un objeto. Trace:    en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.Update(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 219
+2020-11-29 20:11:54,390 ERROR  - Mensaje: Error al convertir el valor del parámetro de String a Int32. Trace:    en System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   en System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   en System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   en System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   en System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 220
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 52
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.Update(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 211
+2020-11-29 20:13:24,035 ERROR  - Mensaje: Error converting data type nvarchar to date. Trace:    en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 220
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 52
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.Update(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 211
+2020-11-29 20:15:45,546 ERROR  - Mensaje: Referencia a objeto no establecida como instancia de un objeto. Trace:    en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 205
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 52
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.Update(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 211
+2020-11-29 20:16:09,263 ERROR  - Mensaje: Referencia a objeto no establecida como instancia de un objeto. Trace:    en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 205
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 52
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.Update(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 211
+2020-11-29 20:30:12,375 ERROR  - Mensaje: Error converting data type nvarchar to date. Trace:    en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.Add(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 45
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.Add(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 17
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.Add(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 27
+2020-11-29 21:08:59,773 ERROR  - Mensaje: Error al convertir el valor del parámetro de String a Int32. Trace:    en System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   en System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   en System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   en System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   en System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 220
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 52
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.Update(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 211
+2020-11-29 21:18:08,193 ERROR  - Mensaje: Referencia a objeto no establecida como instancia de un objeto. Trace:    en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.Delete(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 90
+2020-11-29 21:19:25,120 ERROR  - Mensaje: Error al convertir el valor del parámetro de String a Int32. Trace:    en System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   en System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   en System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   en System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   en System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 220
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 52
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.Update(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 211
+2020-12-01 16:56:54,306 ERROR  - Mensaje: Procedure or function p_SEG_USUARIO_Insert has too many arguments specified. Trace:    en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.Add(SEG_USUARIO entity)
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.Add(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 17
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.Add(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 27
+2020-12-03 07:39:18,422 ERROR  - Mensaje: Cantidad Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.GetAllFilters(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 242
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.GetAllFilters(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 37
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.GetAllFilters(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 154
+2020-12-03 07:42:09,811 ERROR  - Mensaje: Cantidad Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.GetAllFilters(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 242
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.GetAllFilters(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 37
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.GetAllFilters(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 154
+2020-12-03 07:44:22,573 ERROR  - Mensaje: Cantidad Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.GetAllFilters(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 242
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.GetAllFilters(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 37
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.GetAllFilters(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 154
+2020-12-04 00:14:50,870 ERROR  - Mensaje: Cantidad Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.GetById(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 144
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.GetById(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 47
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.GetById(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 177
+2020-12-04 00:16:24,353 ERROR  - Mensaje: Cantidad Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.GetById(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 144
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.GetById(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 47
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.GetById(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 177
+2020-12-04 00:24:15,312 ERROR  - Mensaje: clave Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.GetById(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 144
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.GetById(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 47
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.GetById(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 177
+2020-12-04 00:26:04,884 ERROR  - Mensaje: clave Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.GetById(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 144
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.GetById(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 47
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.GetById(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 177
+2020-12-04 00:26:29,317 ERROR  - Mensaje: clave Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.GetById(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 144
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.GetById(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 47
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.GetById(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 177
+2020-12-04 00:31:47,069 ERROR  - Mensaje: clave Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.GetById(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 144
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.GetById(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 47
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.GetById(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 177
+2020-12-04 07:16:59,280 ERROR  - Mensaje: Error al convertir el valor del parámetro de String a Int32. Trace:    en System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   en System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   en System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   en System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   en System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 221
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 57
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.Update(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 235
+2020-12-04 07:19:10,981 ERROR  - Mensaje: Error al convertir el valor del parámetro de String a Int32. Trace:    en System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   en System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   en System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   en System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   en System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 221
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 57
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.Update(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 235
+2020-12-04 07:25:25,462 ERROR  - Mensaje: Error al convertir el valor del parámetro de String a Int32. Trace:    en System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   en System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   en System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   en System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   en System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 221
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.Update(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 57
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.Update(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 235
+2020-12-04 08:00:00,411 ERROR  - Mensaje: Procedure or function 'p_SEG_USUARIO_Delete' expects parameter '@id_usuario', which was not supplied. Trace:    en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.Delete(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 61
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.Delete(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 22
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.Delete(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 82
+2020-12-05 18:29:14,216 ERROR  - Mensaje: RolId Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.GetByUsername(String username, String clave) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 187
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.GetByUsername(String username, String clave) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 52
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.AccountController.Login(LoginDTO loginDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\AccountController.cs:línea 23
+2020-12-05 18:29:37,371 ERROR  - Mensaje: RolId Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.GetByUsername(String username, String clave) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 187
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.GetByUsername(String username, String clave) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 52
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.AccountController.Login(LoginDTO loginDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\AccountController.cs:línea 23
+2020-12-05 18:30:41,304 ERROR  - Mensaje: RolId Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.GetByUsername(String username, String clave) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 187
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.GetByUsername(String username, String clave) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 52
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.AccountController.Login(LoginDTO loginDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\AccountController.cs:línea 23
+2020-12-05 18:31:54,637 ERROR  - Mensaje: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+SEG_USUARIO -> LoginDTO
+Romsoft.GESTIONCLINICA.Entidades.SEG_USUARIO.SEG_USUARIO -> Romsoft.GESTIONCLINICA.DTO.TABLAS.SEG_USUARIO.LoginDTO
+
+Destination path:
+LoginDTO
+
+Source value:
+Romsoft.GESTIONCLINICA.Entidades.SEG_USUARIO.SEG_USUARIO Trace:    en AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   en AutoMapper.MappingEngine.Map(Object source, Type sourceType, Type destinationType, Action`1 opts)
+   en AutoMapper.MappingEngine.Map[TSource,TDestination](TSource source)
+   en AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   en Romsoft.GESTIONCLINICA.DTO.AutoMapper.MapperHelper.Map[TSource,TDest](TSource source) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DTO\AutoMapper\MapperHelper.cs:línea 9
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.AccountController.Login(LoginDTO loginDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\AccountController.cs:línea 27
+2020-12-06 09:34:28,477 ERROR  - Mensaje: Could not find stored procedure 'Romsoft.p_TIPO_ESTADO_GetFilters'. Trace:    en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteReader(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.TIPO_ESTADORepository.GetAllFilters(TIPO_ESTADO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\TIPO_ESTADORepository.cs:línea 57
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.TIPO_ESTADOBL.GetAllFilters(TIPO_ESTADO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\TIPO_ESTADOBL.cs:línea 40
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.TIPO_ESTADOController.GetAllFilters(TIPO_ESTADODTO estadoDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\TIPO_ESTADOController.cs:línea 27
+2020-12-06 09:37:22,448 ERROR  - Mensaje: Procedure or function 'p_TIPO_ESTADO_GetAllFilters' expects parameter '@tabla', which was not supplied. Trace:    en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteReader(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.TIPO_ESTADORepository.GetAllFilters(TIPO_ESTADO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\TIPO_ESTADORepository.cs:línea 57
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.TIPO_ESTADOBL.GetAllFilters(TIPO_ESTADO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\TIPO_ESTADOBL.cs:línea 40
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.TIPO_ESTADOController.GetAllFilters(TIPO_ESTADODTO estadoDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\TIPO_ESTADOController.cs:línea 27
+2020-12-06 09:44:40,506 ERROR  - Mensaje: Error al convertir el valor del parámetro de String a Int32. Trace:    en System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   en System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   en System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   en System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   en System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteReader(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.TIPO_ESTADORepository.GetAllFilters(TIPO_ESTADO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\TIPO_ESTADORepository.cs:línea 58
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.TIPO_ESTADOBL.GetAllFilters(TIPO_ESTADO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\TIPO_ESTADOBL.cs:línea 40
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.TIPO_ESTADOController.GetAllFilters(TIPO_ESTADODTO estadoDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\TIPO_ESTADOController.cs:línea 27
+2020-12-07 09:06:24,142 ERROR  - Mensaje: id_usuarioCreacion Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.ADM_OCUPACION_Repository.GetAllFilters(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\ADM_OCUPACION_Repository.cs:línea 129
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.ADM_OCUPACIONBL.GetAllFilters(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\ADM_OCUPACIONBL.cs:línea 35
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.ADM_OCUPACIONController.GetAllFilters(ADM_OCUPACIONDTO ocupacionDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\ADM_OCUPACIONController.cs:línea 134
+2020-12-07 12:31:26,719 ERROR  - Mensaje: Procedure or function p_ADM_OCUPACION_Update has too many arguments specified. Trace:    en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.ADM_OCUPACION_Repository.Update(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\ADM_OCUPACION_Repository.cs:línea 208
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.ADM_OCUPACIONBL.Update(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\ADM_OCUPACIONBL.cs:línea 50
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.ADM_OCUPACIONController.Update(ADM_OCUPACIONDTO ocupacionDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\ADM_OCUPACIONController.cs:línea 185
+2020-12-07 12:31:58,506 ERROR  - Mensaje: Procedure or function p_ADM_OCUPACION_Update has too many arguments specified. Trace:    en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.ADM_OCUPACION_Repository.Update(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\ADM_OCUPACION_Repository.cs:línea 208
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.ADM_OCUPACIONBL.Update(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\ADM_OCUPACIONBL.cs:línea 50
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.ADM_OCUPACIONController.Update(ADM_OCUPACIONDTO ocupacionDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\ADM_OCUPACIONController.cs:línea 185
+2020-12-07 13:05:19,731 ERROR  - Mensaje: id_usuarioCreacion Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.ADM_OCUPACION_Repository.GetById(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\ADM_OCUPACION_Repository.cs:línea 170
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.ADM_OCUPACIONBL.GetById(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\ADM_OCUPACIONBL.cs:línea 45
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.ADM_OCUPACIONController.GetById(ADM_OCUPACIONDTO ocupacionDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\ADM_OCUPACIONController.cs:línea 156
+2020-12-07 13:07:01,086 ERROR  - Mensaje: id_usuarioCreacion Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.ADM_OCUPACION_Repository.GetById(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\ADM_OCUPACION_Repository.cs:línea 170
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.ADM_OCUPACIONBL.GetById(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\ADM_OCUPACIONBL.cs:línea 45
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.ADM_OCUPACIONController.GetById(ADM_OCUPACIONDTO ocupacionDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\ADM_OCUPACIONController.cs:línea 156
+2020-12-07 13:22:32,346 ERROR  - Mensaje: Procedure or function p_ADM_OCUPACION_Update has too many arguments specified. Trace:    en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.ADM_OCUPACION_Repository.Update(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\ADM_OCUPACION_Repository.cs:línea 210
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.ADM_OCUPACIONBL.Update(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\ADM_OCUPACIONBL.cs:línea 50
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.ADM_OCUPACIONController.Update(ADM_OCUPACIONDTO ocupacionDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\ADM_OCUPACIONController.cs:línea 185
+2020-12-07 13:22:35,074 ERROR  - Mensaje: Procedure or function p_ADM_OCUPACION_Update has too many arguments specified. Trace:    en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.ADM_OCUPACION_Repository.Update(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\ADM_OCUPACION_Repository.cs:línea 210
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.ADM_OCUPACIONBL.Update(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\ADM_OCUPACIONBL.cs:línea 50
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.ADM_OCUPACIONController.Update(ADM_OCUPACIONDTO ocupacionDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\ADM_OCUPACIONController.cs:línea 185
+2020-12-07 13:50:41,078 ERROR  - Mensaje: Error en el nivel del transporte al recibir los resultados del servidor. (provider: TCP Provider, error: 0 - Se agotó el tiempo de espera del semáforo.) Trace:    en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   en System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   en System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   en System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   en System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteReader(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.ADM_OCUPACION_Repository.GetAllFilters(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\ADM_OCUPACION_Repository.cs:línea 125
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.ADM_OCUPACIONBL.GetAllFilters(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\ADM_OCUPACIONBL.cs:línea 35
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.ADM_OCUPACIONController.GetAllFilters(ADM_OCUPACIONDTO ocupacionDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\ADM_OCUPACIONController.cs:línea 134
+2020-12-14 00:29:46,031 ERROR  - Mensaje: No se puede convertir un objeto DBNull en otros tipos. Trace:    en System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ToInt32(Object value)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.ADM_OCUPACION_Repository.Update(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\ADM_OCUPACION_Repository.cs:línea 210
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.ADM_OCUPACIONBL.Update(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\ADM_OCUPACIONBL.cs:línea 50
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.ADM_OCUPACIONController.Update(ADM_OCUPACIONDTO ocupacionDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\ADM_OCUPACIONController.cs:línea 185
+2021-01-18 15:36:20,445 ERROR  - Mensaje: No se puede convertir un objeto DBNull en otros tipos. Trace:    en System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ToInt32(Object value)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.ADM_OCUPACION_Repository.Update(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\ADM_OCUPACION_Repository.cs:línea 210
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.ADM_OCUPACIONBL.Update(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\ADM_OCUPACIONBL.cs:línea 50
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.ADM_OCUPACIONController.Update(ADM_OCUPACIONDTO ocupacionDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\ADM_OCUPACIONController.cs:línea 185
+2021-01-18 15:36:26,380 ERROR  - Mensaje: No se puede convertir un objeto DBNull en otros tipos. Trace:    en System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ToInt32(Object value)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.ADM_OCUPACION_Repository.Update(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\ADM_OCUPACION_Repository.cs:línea 210
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.ADM_OCUPACIONBL.Update(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\ADM_OCUPACIONBL.cs:línea 50
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.ADM_OCUPACIONController.Update(ADM_OCUPACIONDTO ocupacionDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\ADM_OCUPACIONController.cs:línea 185
+2021-01-18 15:36:37,240 ERROR  - Mensaje: No se puede convertir un objeto DBNull en otros tipos. Trace:    en System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   en System.Convert.ToInt32(Object value)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.ADM_OCUPACION_Repository.Update(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\ADM_OCUPACION_Repository.cs:línea 210
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.ADM_OCUPACIONBL.Update(ADM_OCUPACION entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\ADM_OCUPACIONBL.cs:línea 50
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.ADM_OCUPACIONController.Update(ADM_OCUPACIONDTO ocupacionDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\ADM_OCUPACIONController.cs:línea 185
+2021-01-22 09:40:01,101 ERROR  - Mensaje: f_estado Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUSRepository.cs:línea 115
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 35
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.GetAllFilters(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 85
+2021-01-22 09:40:12,353 ERROR  - Mensaje: f_estado Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUSRepository.cs:línea 115
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 35
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.GetAllFilters(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 85
+2021-01-22 09:40:26,049 ERROR  - Mensaje: f_estado Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUSRepository.cs:línea 115
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 35
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.GetAllFilters(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 85
+2021-01-22 09:40:26,690 ERROR  - Mensaje: f_estado Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUSRepository.cs:línea 115
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 35
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.GetAllFilters(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 85
+2021-01-22 09:40:26,858 ERROR  - Mensaje: f_estado Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUSRepository.cs:línea 115
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 35
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.GetAllFilters(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 85
+2021-01-22 09:40:27,021 ERROR  - Mensaje: f_estado Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUSRepository.cs:línea 115
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 35
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.GetAllFilters(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 85
+2021-01-22 09:40:27,190 ERROR  - Mensaje: f_estado Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUSRepository.cs:línea 115
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 35
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.GetAllFilters(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 85
+2021-01-22 09:40:27,370 ERROR  - Mensaje: f_estado Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUSRepository.cs:línea 115
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 35
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.GetAllFilters(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 85
+2021-01-22 09:40:37,971 ERROR  - Mensaje: f_estado Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUSRepository.cs:línea 115
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 35
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.GetAllFilters(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 85
+2021-01-22 09:40:38,421 ERROR  - Mensaje: f_estado Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUSRepository.cs:línea 115
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 35
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.GetAllFilters(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 85
+2021-01-22 09:40:38,592 ERROR  - Mensaje: f_estado Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUSRepository.cs:línea 115
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 35
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.GetAllFilters(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 85
+2021-01-22 09:40:38,854 ERROR  - Mensaje: f_estado Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUSRepository.cs:línea 115
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 35
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.GetAllFilters(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 85
+2021-01-22 09:40:39,024 ERROR  - Mensaje: f_estado Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUSRepository.cs:línea 115
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 35
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.GetAllFilters(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 85
+2021-01-22 09:40:39,239 ERROR  - Mensaje: f_estado Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUSRepository.cs:línea 115
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 35
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.GetAllFilters(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 85
+2021-01-22 09:40:40,371 ERROR  - Mensaje: f_estado Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUSRepository.cs:línea 115
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 35
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.GetAllFilters(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 85
+2021-01-22 09:40:57,494 ERROR  - Mensaje: f_estado Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUSRepository.cs:línea 115
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 35
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.GetAllFilters(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 85
+2021-01-22 10:11:56,154 ERROR  - Mensaje: La conversión especificada no es válida. Trace:    en System.Data.SqlClient.SqlBuffer.get_Double()
+   en System.Data.SqlClient.SqlDataReader.GetDouble(Int32 i)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetDouble(Int32 i)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUSRepository.cs:línea 115
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 35
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.GetAllFilters(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 85
+2021-01-22 10:13:29,404 ERROR  - Mensaje: La conversión especificada no es válida. Trace:    en System.Data.SqlClient.SqlBuffer.get_Double()
+   en System.Data.SqlClient.SqlDataReader.GetDouble(Int32 i)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetDouble(Int32 i)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUSRepository.cs:línea 115
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 35
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.GetAllFilters(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 85
+2021-01-22 10:21:28,966 ERROR  - Mensaje: La conversión especificada no es válida. Trace:    en System.Data.SqlClient.SqlBuffer.get_Double()
+   en System.Data.SqlClient.SqlDataReader.GetDouble(Int32 i)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetDouble(Int32 i)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.GetAllFilters(CVN_TARIFARIO_SEGUS entity)
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 35
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.GetAllFilters(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 85
+2021-01-22 23:03:37,324 ERROR  - Mensaje: Error converting data type nvarchar to date. Trace:    en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.Delete(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 63
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.Delete(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 22
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.Delete(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 82
+2021-01-22 23:03:41,714 ERROR  - Mensaje: Error converting data type nvarchar to date. Trace:    en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.Delete(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 63
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.Delete(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 22
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.Delete(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 82
+2021-01-22 23:04:46,341 ERROR  - Mensaje: Error converting data type nvarchar to date. Trace:    en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.Delete(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 63
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.Delete(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 22
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.Delete(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 82
+2021-01-23 23:43:31,393 ERROR  - Mensaje: Error converting data type nvarchar to date. Trace:    en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.SEG_USUARIORepository.Delete(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\SEG_USUARIORepository.cs:línea 63
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.SEG_USUARIOBL.Delete(SEG_USUARIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\SEG_USUARIOBL.cs:línea 22
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.SEG_USUARIOController.Delete(SEG_USUARIODTO usuarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\SEG_USUARIOController.cs:línea 82
+2021-01-24 16:19:01,365 ERROR  - Mensaje: Error al convertir el valor del parámetro de String a Int32. Trace:    en System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   en System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   en System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   en System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   en System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteReader(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUSRepository.cs:línea 134
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 40
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.GetAllFilters(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 85
+2021-01-24 16:19:51,652 ERROR  - Mensaje: Error al convertir el valor del parámetro de String a Int32. Trace:    en System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   en System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   en System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   en System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   en System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteReader(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUSRepository.cs:línea 134
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.GetAllFilters(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 40
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.GetAllFilters(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 85
+2021-01-24 19:26:55,032 ERROR  - Mensaje: id_clasificacion_susalud_od Trace:    en System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   en System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   en Microsoft.Practices.EnterpriseLibrary.Data.DataReaderWrapper.GetOrdinal(String name)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_CLASIFICACION_SUSALUD_ODRepository.GetAllActives() en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_CLASIFICACION_SUSALUD_ODRepository.cs:línea 53
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_CLASIFICACION_SUSALUD_ODBL.GetAllActives() en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_CLASIFICACION_SUSALUD_ODBL.cs:línea 35
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_CLASIFICACION_SUSALUD_ODController.GetAllActives(CVN_CLASIFICACION_SUSALUD_ODDTO susaludDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_CLASIFICACION_SUSALUD_ODController.cs:línea 26
+2021-01-24 21:32:41,004 ERROR  - Mensaje: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CON_CENTRO_COSTO -> CON_CENTRO_COSTODTO
+Romsoft.GESTIONCLINICA.Entidades.CON_CENTRO_COSTO.CON_CENTRO_COSTO -> Romsoft.GESTIONCLINICA.DTO.TABLAS.CON_CENTRO_COSTO.CON_CENTRO_COSTODTO
+
+Destination path:
+IEnumerable`1[0]
+
+Source value:
+Romsoft.GESTIONCLINICA.Entidades.CON_CENTRO_COSTO.CON_CENTRO_COSTO Trace:    en AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   en AutoMapper.Mappers.EnumerableMapperBase`1.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   en AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   en AutoMapper.MappingEngine.Map(Object source, Type sourceType, Type destinationType, Action`1 opts)
+   en AutoMapper.MappingEngine.Map[TSource,TDestination](TSource source)
+   en AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   en Romsoft.GESTIONCLINICA.DTO.AutoMapper.MapperHelper.Map[TSource,TDest](TSource source) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DTO\AutoMapper\MapperHelper.cs:línea 9
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CON_CENTRO_COSTOController.GetAllActives(CON_CENTRO_COSTODTO susaludDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CON_CENTRO_COSTOController.cs:línea 27
+2021-01-24 21:33:38,400 ERROR  - Mensaje: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CON_CENTRO_COSTO -> CON_CENTRO_COSTODTO
+Romsoft.GESTIONCLINICA.Entidades.CON_CENTRO_COSTO.CON_CENTRO_COSTO -> Romsoft.GESTIONCLINICA.DTO.TABLAS.CON_CENTRO_COSTO.CON_CENTRO_COSTODTO
+
+Destination path:
+IEnumerable`1[0]
+
+Source value:
+Romsoft.GESTIONCLINICA.Entidades.CON_CENTRO_COSTO.CON_CENTRO_COSTO Trace:    en AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   en AutoMapper.Mappers.EnumerableMapperBase`1.Map(ResolutionContext context, IMappingEngineRunner mapper)
+   en AutoMapper.MappingEngine.AutoMapper.IMappingEngineRunner.Map(ResolutionContext context)
+   en AutoMapper.MappingEngine.Map(Object source, Type sourceType, Type destinationType, Action`1 opts)
+   en AutoMapper.MappingEngine.Map[TSource,TDestination](TSource source)
+   en AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   en Romsoft.GESTIONCLINICA.DTO.AutoMapper.MapperHelper.Map[TSource,TDest](TSource source) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DTO\AutoMapper\MapperHelper.cs:línea 9
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CON_CENTRO_COSTOController.GetAllActives(CON_CENTRO_COSTODTO susaludDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CON_CENTRO_COSTOController.cs:línea 27
+2021-01-25 01:45:13,704 ERROR  - Mensaje: No se puede implementar el método o la operación. Trace:    en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUS_PARTICIPANTEBL.Exists(CVN_TARIFARIO_SEGUS_PARTICIPANTE entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUS_PARTICIPANTEBL.cs:línea 25
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUS_PARTICIPANTEController.Add(CVN_TARIFARIO_SEGUS_PARTICIPANTEDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUS_PARTICIPANTEController.cs:línea 26
+2021-01-25 01:46:07,625 ERROR  - Mensaje: No se puede implementar el método o la operación. Trace:    en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUS_PARTICIPANTEBL.Exists(CVN_TARIFARIO_SEGUS_PARTICIPANTE entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUS_PARTICIPANTEBL.cs:línea 25
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUS_PARTICIPANTEController.Add(CVN_TARIFARIO_SEGUS_PARTICIPANTEDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUS_PARTICIPANTEController.cs:línea 26
+2021-01-25 01:47:38,990 ERROR  - Mensaje: No se puede implementar el método o la operación. Trace:    en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUS_PARTICIPANTEBL.Exists(CVN_TARIFARIO_SEGUS_PARTICIPANTE entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUS_PARTICIPANTEBL.cs:línea 25
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUS_PARTICIPANTEController.Add(CVN_TARIFARIO_SEGUS_PARTICIPANTEDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUS_PARTICIPANTEController.cs:línea 26
+2021-01-25 08:03:25,844 ERROR  - Mensaje: Se agotó el tiempo de espera de ejecución. El período de tiempo de espera transcurrió antes de la finalización de la operación o el servidor no responde. Trace:    en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   en System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   en System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   en System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   en System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUS_PARTICIPANTERepository.Add(CVN_TARIFARIO_SEGUS_PARTICIPANTE entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUS_PARTICIPANTERepository.cs:línea 33
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUS_PARTICIPANTEBL.Add(CVN_TARIFARIO_SEGUS_PARTICIPANTE entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUS_PARTICIPANTEBL.cs:línea 15
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUS_PARTICIPANTEController.Add(CVN_TARIFARIO_SEGUS_PARTICIPANTEDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUS_PARTICIPANTEController.cs:línea 28
+2021-01-25 15:38:46,457 ERROR  - Mensaje: No se puede implementar el método o la operación. Trace:    en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_CATEGORIA_PAGO_PRECIOBL.Exists(CVN_CATEGORIA_PAGO_PRECIO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_CATEGORIA_PAGO_PRECIOBL.cs:línea 25
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_CATEGORIA_PAGO_PRECIOController.Add(CVN_CATEGORIA_PAGO_PRECIODTO pagoprecioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_CATEGORIA_PAGO_PRECIOController.cs:línea 26
+2021-01-25 23:21:23,677 ERROR  - Mensaje: Procedure or function 'p_CVN_TARIFARIO_SEGUS_Update' expects parameter '@id_tarifario_segus', which was not supplied. Trace:    en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.Update(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUSRepository.cs:línea 237
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.Update(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 55
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.Update(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 130
+2021-01-25 23:53:01,639 ERROR  - Mensaje: Procedure or function 'p_CVN_TARIFARIO_SEGUS_Update' expects parameter '@id_tarifario_segus', which was not supplied. Trace:    en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.Update(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUSRepository.cs:línea 237
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.Update(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 55
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.Update(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 130
+2021-01-25 23:53:19,587 ERROR  - Mensaje: Procedure or function 'p_CVN_TARIFARIO_SEGUS_Update' expects parameter '@id_tarifario_segus', which was not supplied. Trace:    en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteNonQuery(DbCommand command)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteNonQuery(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_TARIFARIO_SEGUSRepository.Update(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_TARIFARIO_SEGUSRepository.cs:línea 237
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_TARIFARIO_SEGUSBL.Update(CVN_TARIFARIO_SEGUS entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_TARIFARIO_SEGUSBL.cs:línea 55
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_TARIFARIO_SEGUSController.Update(CVN_TARIFARIO_SEGUSDTO tarifarioDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_TARIFARIO_SEGUSController.cs:línea 130
+2021-01-26 01:37:35,776 ERROR  - Mensaje: Error al convertir el valor del parámetro de String a Int32. Trace:    en System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   en System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   en System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   en System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   en System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteReader(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_CATEGORIA_PAGORepository.GetAllFilters(CVN_CATEGORIA_PAGO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_CATEGORIA_PAGORepository.cs:línea 73
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_CATEGORIA_PAGOBL.GetAllFilters(CVN_CATEGORIA_PAGO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_CATEGORIA_PAGOBL.cs:línea 40
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_CATEGORIA_PAGOController.GetAllFilters(CVN_CATEGORIA_PAGODTO catpagoDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_CATEGORIA_PAGOController.cs:línea 49
+2021-01-26 01:37:49,954 ERROR  - Mensaje: Error al convertir el valor del parámetro de String a Int32. Trace:    en System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   en System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   en System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   en System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   en System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   en Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteReader(DbCommand command)
+   en Romsoft.GESTIONCLINICA.DataAccess.Tablas.CVN_CATEGORIA_PAGORepository.GetAllFilters(CVN_CATEGORIA_PAGO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.DataAccess\Tablas\CVN_CATEGORIA_PAGORepository.cs:línea 73
+   en Romsoft.GESTIONCLINICA.Business.Logic.Tablas.CVN_CATEGORIA_PAGOBL.GetAllFilters(CVN_CATEGORIA_PAGO entity) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.Business.Logic\Tablas\CVN_CATEGORIA_PAGOBL.cs:línea 40
+   en Romsoft.GESTIONCLINICA.WebApi.Controllers.CVN_CATEGORIA_PAGOController.GetAllFilters(CVN_CATEGORIA_PAGODTO catpagoDTO) en D:\TonyCompartido\Romsoft112020\03 Codigo Fuente\GestionClinicas\Romsoft.GESTIONCLINICA\Romsoft.GESTIONCLINICA.WebApi\Controllers\CVN_CATEGORIA_PAGOController.cs:línea 49
